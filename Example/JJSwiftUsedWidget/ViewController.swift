@@ -6,19 +6,53 @@
 //  Copyright (c) 2018 snailjj. All rights reserved.
 //
 
+
 import UIKit
+import JJSwiftUsedWidget
 
-class ViewController: UIViewController {
-
+class ChildViewController: UIViewController {
+    
+    var function = MainFunction.default
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        switch function {
+        case .paymentCodeInputView:
+            paymentCodeInput()
+        default:
+            print("")
+        }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
+
+extension ChildViewController: PaymentCodeInputViewDelegate {
+    
+    func paymentCodeInput() {
+        let paymentCodeInputView = PaymentCodeInputView(frame: CGRect(x: 0, y: 0, width: 180, height: 30))
+        paymentCodeInputView.backgroundColor = UIColor.white
+        paymentCodeInputView.layer.borderColor = UIColor.gray.cgColor
+        paymentCodeInputView.layer.borderWidth = 1
+        paymentCodeInputView.layer.cornerRadius = 3
+        paymentCodeInputView.verticalBarColor = UIColor.red
+        paymentCodeInputView.lengthOfPassword = 6
+        paymentCodeInputView.center = CGPoint(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2)
+        paymentCodeInputView.delegate = self
+        self.view.addSubview(paymentCodeInputView)
+    }
+    
+    func inputing(view: PaymentCodeInputView, pswString: String) {
+        print(pswString)
+    }
+    
+    func complete(view: PaymentCodeInputView, pswString: String) {
+        print("PaymentCodeInputView----\(pswString)")
+    }
+}

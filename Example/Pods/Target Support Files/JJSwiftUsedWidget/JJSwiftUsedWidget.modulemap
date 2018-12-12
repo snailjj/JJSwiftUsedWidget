@@ -1,0 +1,6 @@
+framework module JJSwiftUsedWidget {
+  umbrella header "JJSwiftUsedWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,6 +16,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 JJSwiftUsedWidget is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+## Introduction
+
+    1、PaymentCodeInputView：是一个简版的支付密码界面
+
+## Usage
+
+### 各种用过封装组件的集合、如果要单独用某个控件
+
+```ruby
+pod 'JJSwiftUsedWidget/PaymentCodeInputView'
+```
+### 如果用所有的控件
 ```ruby
 pod 'JJSwiftUsedWidget'
 ```

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5738DB3721C0BD69005A7536 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738DB3621C0BD69005A7536 /* MainViewController.swift */; };
+		5738DB3921C0BE5F005A7536 /* JJFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738DB3821C0BE5F005A7536 /* JJFunction.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,9 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2526F421EC855D85128BD964 /* JJSwiftUsedWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJSwiftUsedWidget.podspec; path = ../JJSwiftUsedWidget.podspec; sourceTree = "<group>"; };
+		2526F421EC855D85128BD964 /* JJSwiftUsedWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJSwiftUsedWidget.podspec; path = ../JJSwiftUsedWidget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FED18178809C35DDD059758 /* Pods-JJSwiftUsedWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Tests/Pods-JJSwiftUsedWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		306F901E8E0118377E56EC91 /* Pods-JJSwiftUsedWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Example/Pods-JJSwiftUsedWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5738DB3621C0BD69005A7536 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5738DB3821C0BE5F005A7536 /* JJFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJFunction.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JJSwiftUsedWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJSwiftUsedWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +46,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		939700EC05C27A5C2144A707 /* Pods_JJSwiftUsedWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJSwiftUsedWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A82E9FDB6DE629D43AEB3861 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A82E9FDB6DE629D43AEB3861 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B5EEC29F821F08D34ABEF4B4 /* Pods-JJSwiftUsedWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Tests/Pods-JJSwiftUsedWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2BB4D25386BF4318131CCAA /* Pods-JJSwiftUsedWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Example/Pods-JJSwiftUsedWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C78EDF58BF5EAB24C6BD9FBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C78EDF58BF5EAB24C6BD9FBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E76927059A21BB539506A997 /* Pods_JJSwiftUsedWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJSwiftUsedWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,8 @@
 		607FACD21AFB9204008FA782 /* Example for JJSwiftUsedWidget */ = {
 			isa = PBXGroup;
 			children = (
+				5738DB3621C0BD69005A7536 /* MainViewController.swift */,
+				5738DB3821C0BE5F005A7536 /* JJFunction.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -170,7 +176,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0B09F83D06C7C2D80C6A4294 /* [CP] Embed Pods Frameworks */,
+				3742A59D97A39A0C9611B2D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,20 +268,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B09F83D06C7C2D80C6A4294 /* [CP] Embed Pods Frameworks */ = {
+		3742A59D97A39A0C9611B2D0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JJSwiftUsedWidget_Example/Pods-JJSwiftUsedWidget_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JJSwiftUsedWidget/JJSwiftUsedWidget.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJSwiftUsedWidget.framework",
 			);
@@ -289,15 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JJSwiftUsedWidget_Example-checkManifestLockResult.txt",
 			);
@@ -311,15 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JJSwiftUsedWidget_Tests/Pods-JJSwiftUsedWidget_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
@@ -333,15 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JJSwiftUsedWidget_Tests-checkManifestLockResult.txt",
 			);
@@ -357,6 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5738DB3721C0BD69005A7536 /* MainViewController.swift in Sources */,
+				5738DB3921C0BE5F005A7536 /* JJFunction.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

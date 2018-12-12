@@ -1,5 +1,5 @@
 import XCTest
-import JJSwiftUsedWidget
+//import JJSwiftUsedWidget
 
 class Tests: XCTestCase {
     

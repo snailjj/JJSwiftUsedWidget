@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JJSwiftUsedWidget (0.1.41):
+    - JJSwiftUsedWidget/PaymentCodeInputView (= 0.1.41)
+  - JJSwiftUsedWidget/PaymentCodeInputView (0.1.41)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - JJSwiftUsedWidget (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JJSwiftUsedWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JJSwiftUsedWidget: c9609001a2918e20265d724d9030c8774e0347d4
+
+PODFILE CHECKSUM: fc9f6910f6277c3de132e615412f31f8f7f49c56
+
+COCOAPODS: 1.5.3
