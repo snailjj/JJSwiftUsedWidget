@@ -17,12 +17,7 @@ class ChildViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        switch function {
-        case .paymentCodeInputView:
-            paymentCodeInput()
-        default:
-            print("")
-        }
+        setup()
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,6 +27,33 @@ class ChildViewController: UIViewController {
     
 }
 
+extension ChildViewController {
+    func setup() {
+        switch function {
+        case .paymentCodeInputView:
+            paymentCodeInput()
+        case .circleCountDownView:
+            circleCountDown()
+        default:
+            print("")
+        }
+    }
+}
+
+extension ChildViewController: CircleCountDownViewDelegate {
+    func didFinish() {
+        print("完成")
+    }
+    
+    func circleCountDown() {
+        let circleView = CircleCountDownView(frame: CGRect(x: 0, y: 0, width: 100, height: 100), circleBgColor: UIColor.blue, circleColor: UIColor.red, width: 2, seconds: 10)
+        circleView.center = view.center
+        circleView.delegate = self
+        view.addSubview(circleView)
+        
+        circleView.start()
+    }
+}
 
 extension ChildViewController: PaymentCodeInputViewDelegate {
     

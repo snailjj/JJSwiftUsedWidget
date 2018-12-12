@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5738DB3721C0BD69005A7536 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738DB3621C0BD69005A7536 /* MainViewController.swift */; };
-		5738DB3921C0BE5F005A7536 /* JJFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738DB3821C0BE5F005A7536 /* JJFunction.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -34,7 +33,6 @@
 		2FED18178809C35DDD059758 /* Pods-JJSwiftUsedWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Tests/Pods-JJSwiftUsedWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		306F901E8E0118377E56EC91 /* Pods-JJSwiftUsedWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJSwiftUsedWidget_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJSwiftUsedWidget_Example/Pods-JJSwiftUsedWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5738DB3621C0BD69005A7536 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		5738DB3821C0BE5F005A7536 /* JJFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJFunction.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JJSwiftUsedWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJSwiftUsedWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				5738DB3621C0BD69005A7536 /* MainViewController.swift */,
-				5738DB3821C0BE5F005A7536 /* JJFunction.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -348,7 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5738DB3721C0BD69005A7536 /* MainViewController.swift in Sources */,
-				5738DB3921C0BE5F005A7536 /* JJFunction.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

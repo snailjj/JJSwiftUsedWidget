@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    var titles = ["支付密码界面"]
+    var titles = ["支付密码界面", "圆形倒计时"]
     @IBOutlet weak var aTableView: UITableView!
     
     override func viewDidLoad() {
@@ -26,6 +26,12 @@ class MainViewController: UIViewController {
 
 }
 
+enum MainFunction: String {
+    case paymentCodeInputView = "支付密码界面"
+    case circleCountDownView = "圆形倒计时"
+    case `default` = "暂无"
+}
+
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
@@ -35,10 +41,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
-        case 0:
-            return 1
         default:
-            return 0
+            return 1
         }
     }
     

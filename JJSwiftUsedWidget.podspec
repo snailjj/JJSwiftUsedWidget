@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJSwiftUsedWidget'
-  s.version          = '0.1.1.41'
+  s.version          = '0.1.2.41'
   s.summary          = '一些项目用到的封装控件'
   s.swift_version    = '4.1'
   s.description      = <<-DESC
@@ -25,6 +25,10 @@ TODO: Add long description of the pod here.
 
     s.subspec 'PaymentCodeInputView' do |pciv|
         pciv.source_files = 'JJSwiftUsedWidget/PaymentCodeInputView/*.swift'
+    end
+    
+    s.subspec 'CircleCountDownView' do |ccdv|
+        ccdv.source_files = 'JJSwiftUsedWidget/CircleCountDownView/*.swift'
     end
   
   # s.resource_bundles = {

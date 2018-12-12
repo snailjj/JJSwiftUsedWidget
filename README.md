@@ -19,6 +19,7 @@ it, simply add the following line to your Podfile:
 ## Introduction
 
     1、PaymentCodeInputView：是一个简版的支付密码界面
+    2、CircleCountDownView：是一个圆形倒计时View，只是用的贝塞尔曲线完成（有待优化）
 
 ## Usage
 
