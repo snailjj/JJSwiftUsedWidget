@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJSwiftUsedWidget_Example' do
+  pod 'JJSwiftUsedWidget', :path => '../'
+
+  target 'JJSwiftUsedWidget_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
