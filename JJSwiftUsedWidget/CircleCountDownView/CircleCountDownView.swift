@@ -59,6 +59,7 @@ public class CircleCountDownView: UIView {
     /// 开始
     public func start() {
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(countDown), userInfo: nil, repeats: true)
+        RunLoop.current.add(timer!, forMode: .commonModes)
     }
 
     @objc func countDown() {
@@ -66,11 +67,16 @@ public class CircleCountDownView: UIView {
         countLabel.text = "\(Int(currentCount / 100))"
         if currentCount == count {
             delegate?.didFinish()
-            print("结束，定时器销毁")
             timer?.invalidate()
             timer = nil
         }
         setNeedsDisplay()
     }
     
+    public override func removeFromSuperview() {
+        super.removeFromSuperview()
+        timer?.invalidate()
+        timer = nil
+    }
+
 }
