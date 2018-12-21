@@ -74,7 +74,13 @@ extension PaymentCodeInputView {
             inputItems.append(item)
             addSubview(item)
         }
-        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapBecomeFirstResponser))
+        self.isUserInteractionEnabled = true
+        self.addGestureRecognizer(tap)
+    }
+    
+    @objc func tapBecomeFirstResponser() {
+        txtField.becomeFirstResponder()
     }
     
     @objc func inputAction(noti: Notification) {

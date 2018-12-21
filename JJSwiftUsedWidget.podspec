@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJSwiftUsedWidget'
-  s.version          = '0.1.3.41'
+  s.version          = '0.1.4.41'
   s.summary          = '一些项目用到的封装控件'
   s.swift_version    = '4.1'
   s.description      = <<-DESC
